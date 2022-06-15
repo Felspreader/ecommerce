@@ -39,7 +39,7 @@ exports.getProductDetails = async(req,res,next)=>{
       product
     });
 }
-
+//  product update -- admin
 exports.updateProduct= async (req, res,next)=>{
     let product = await Product.findById(req.params.id);
 
